@@ -11,8 +11,8 @@
     --solapa-sobre: #ffccd5;
     --cuerpo-sobre: #ffc1d1;
     --sombra: rgba(0,0,0,0.2);
-    --texto: #003049;
-    --corazon: #ff477e;
+    --texto: #4d322e;
+    --corazon: #d7adf0;
 }
 
 body{
@@ -33,7 +33,8 @@ h1{
 }
 
 p, strong{
-    color: #003049;
+    color: var(--texto);
+    text-align: justify;
 }
 .contenedor{
     width: 400px;
